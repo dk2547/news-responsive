@@ -1,3 +1,4 @@
+
 .menu-img{
     display: none;
 }
@@ -10,15 +11,12 @@ padding-bottom: 10px;
 .heading h1{
 
     font-weight:100;
-    display: inline;
+     display: inline;
     font-size: 400%;
 
 }
 
-/* .box-1>h1{
-    display: inline;
-    background-color:white;
-} */
+
 .logo{
 
     display: inline;
@@ -39,16 +37,11 @@ padding-bottom: 10px;
 
 }
 .dog{
-    width: 85%;
+    width: 100%;
 
     position: relative;
 
 }
-
-.score-table> table{
-
-}
-
 td{
 
     text-align: center;
@@ -61,9 +54,8 @@ td{
      position: absolute; 
     background: transparent;
     background-color: #abababd1;
-    width: 85%;
-    
-     bottom: 0%;
+    width: 100%;
+      bottom: 0%;
 }
 .dogimage{
     flex-direction: column;
@@ -72,6 +64,7 @@ td{
 color: white;
 font-size: 170%;
 }
+
 .top-news>div{
 border-bottom:solid rgb(136, 134, 131);
 /* border-bottom:  */
@@ -86,21 +79,24 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
-.row-3>td{
-    text-align: center;
+.top-news-n-more>div a{
+    font-size: 150%;
+    text-decoration: none;
+    color: #171515;
+}
+.section-2>.top-news hr{
+    border-width: 2px;
+    border-style: solid;
+    color: #999999;
+}
 
-    }
-    .score-table>table>tr>td{
-        padding: 1%;
-    }
+    
     .weather-forecast>.cont1{
         display: flex;
         
 
     }
-    .weather-forecast>.cont1>div>h1{
-        marfin: -7px 0;
-    }
+    
     .text{
         margin-top: 5%;
     
@@ -149,6 +145,33 @@ justify-content: space-between;
     .section-5{
         order:1;
     }
+    .score-table td{
+               
+        padding: 1%;                
+    }
+    
+    .score-table tr:nth-child(odd){
+        background:#f2f2f2;
+        height: 25px;                
+    }
+ 
+    .score-table th{
+        background:#83969c;
+       
+        padding: 1%;                
+    }
+    table>tr>td img{
+        width: 90%;
+    }
+    .section-5>.latest-news-n-more>div a{
+        text-decoration: none;
+        color: #171515;
+        font-size: 150%
+    }
+
+    /* .weather-forecast>.daily-forecast>#weather-table>tr>td img{
+        width: 90%;
+    } */
 
      @media screen and (min-width:640px) and (max-width:960px){
         .heading h1{
@@ -175,7 +198,7 @@ justify-content: space-between;
             }
             .section-1{
                 order:0;
-                width: 40%;
+                
                 display: inline;
                 flex:1;
                 
@@ -201,10 +224,7 @@ justify-content: space-between;
                
                 padding: 1%;                
             }
-            .score-table tr{
-                color: black;
-
-            }
+            
             .score-table tr:nth-child(odd){
                 background:#f2f2f2;
                 height: 25px;                
@@ -253,6 +273,10 @@ justify-content: space-between;
                
                 padding: 1%;                
             }
+            .score-table td{
+               
+                padding: 1%;                
+            }
             .menu-img{
                 display: block;
                 width: 10%;
@@ -278,53 +302,5 @@ justify-content: space-between;
             }
             .breaking-news{
                 display: none;
-            }
-
+             }
         }
-/* }
-@media (max-width:788px){
-    .heading h1{
-
-        font-weight:100;
-        display: inline;
-        font-size: 273%;
-    
-    }
-
-}
-@media (max-width:772px){
-    .breaking-news h2, .breaking-news p{
-        color: white;
-        font-size: 100%;
-        }
-}
-@media (max-width:644px){
-    .breaking-news h2, .breaking-news p{
-        color: white;
-        font-size: 90%;
-        }
-}
-@media (max-width:568px){
-    .heading h1{
-
-        font-weight:100;
-        display: inline;
-        font-size: auto;
-    
-    }
-
-}
-@media (max-width:425px){
-    .breaking-news h2, .breaking-news p{
-        color: white;
-        font-size: auto;
-        }
-        .heading h1{
-
-            font-weight:100;
-            display: inline;
-            font-size: 100%;
-        
-        }
-        
-} */

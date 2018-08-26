@@ -1,7 +1,17 @@
-.news-box>div p{
-    display: inline;
-}
-.news-box>div img{
+.banner img{
+    width: 10%;
     float: left;
-    margin: 0 2% 0 0;
+}
+p{
+    /* display: inline; */
+    font-size: 20px;
+}
+.test{
+
+}
+.banner{
+
+}
+body{
+    margin: 0;
 }
