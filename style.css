@@ -1,359 +1,349 @@
-
-.menu-img{
+.menu-img {
     display: none;
 }
-.heading{
+
+.heading {
     display: flex;
     /* border-bottom: solid black; */
-    
     box-shadow: 0 2px 5px rgba(43, 36, 36, 0.75);
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
-.heading h1{
-
-    font-weight:100;
-     display: inline;
+.heading h1 {
+    font-weight: 100;
+    display: inline;
     font-size: 332%;
+}
 
-}
-.score-table table{
+.score-table table {
     width: 100%;
-   
+    border-spacing: 0;
 }
-.daily-forecast table{
+
+.daily-forecast table {
     width: 100%;
 }
-.logo img{
+
+.logo img {
     width: 82%;
 }
 
-.logo{
-
+.logo {
     display: inline;
 }
-.h{
-    display:inline-block
+
+.h {
+    display: inline-block
 }
-.banner-text{ 
-  
+
+.banner-text {
     font-size: 20px;
     font-weight: 100;
     display: inline;
 }
-.menu h3{
-    
+
+.menu h3 {
     color: dimgrey;
     font-size: 95%;
     margin: 29px 0;
-
 }
-.dog{
+
+.dog {
     width: 100%;
-
     position: relative;
-
 }
-td{
 
+td {
     text-align: center;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-around;
     font-size: 125%;
 }
-.breaking-news{
-     position: absolute; 
+
+.breaking-news {
+    position: absolute;
     background: transparent;
     background-color: #abababd1;
     width: 100%;
-      bottom: 0%;
+    bottom: 0%;
 }
-.banner-image{
+
+.banner-image {
     flex-direction: column;
 }
 
-
-.breaking-news h2, .breaking-news p{
-color: white;
-font-size: 170%;
+.breaking-news h2,
+.breaking-news p {
+    color: white;
+    font-size: 170%;
 }
 
-.top-news>div{
-border-bottom:solid rgb(136, 134, 131);
-/* border-bottom:  */
+.top-news>div {
+    border-bottom: solid rgb(136, 134, 131);
+    /* border-bottom:  */
 }
-.banner{
+
+.banner {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.top-news-n-more{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+
+.top-news-n-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.top-news-n-more>div a{
+
+.top-news-n-more>div a {
     font-size: 150%;
     text-decoration: none;
     color: #171515;
 }
-.news-section>.top-news hr{
+
+.news-section>.top-news hr {
     border-width: 2px;
     border-style: solid;
     color: #999999;
 }
-.news-section{
+
+.news-section {
     margin-top: 10px;
 }
 
-    
-    .weather-forecast>.todays-weather{
-        display: flex;
-        
+.weather-forecast>.todays-weather {
+    display: flex;
+}
 
-    }
-    .current-location{
-        margin-left: 5%;
-    }
-    .current-location p{
-        margin: 0%;
-    }
-    .place{
-        font-size: 120%;
-    }
-    
-    .text{
-        margin-top: 2%;
-        position: absolute;
-        left: 167px;
-    
-    }
-    .latest-news-n-more{
-        display: flex;
-        justify-content: space-between;
-    }
-    .news-box{
-        margin:1% 0;
-       
+.current-location {
+    margin-left: 5%;
+}
 
-    }
-    .news-box>div p{
-     display: inline;
-     
+.current-location p {
+    margin: 0%;
+}
 
-    }
-    .news-box>div img{
-        float: left;
-        margin: 0 2% 0 0;
-    }
-    span{
-        
-        color:black;
-    }
-    /* .centerspan{
+.place {
+    font-size: 120%;
+}
+
+.text {
+    margin-top: 2%;
+    position: absolute;
+    left: 167px;
+}
+
+.latest-news-n-more {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box {
+    margin: 1% 0;
+}
+
+.news-box>div p {
+    display: inline;
+}
+
+.news-box>div img {
+    float: left;
+    margin: 0 2% 0 0;
+    width: 140px;
+}
+
+span {
+    color: black;
+}
+
+/* .centerspan{
         margin: 0 5%;
     } */
-    footer{
-        /* margin-left: 10%; */
-        /* border-top: solid black; */
-        box-shadow: -2px 2px 6px 0px #171515;
-        padding: 1% 0;
-        display:flex;
-        justify-content: space-around;
-        margin-bottom: 10%;
-        
+
+footer {
+    /* margin-left: 10%; */
+    /* border-top: solid black; */
+    box-shadow: -2px 2px 6px 0px #171515;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4-mid-size-screen {
+    order: 1;
+}
+
+.detail-news {
+    order: 1;
+    margin-top: 15px;
+}
+
+.score-table td {
+    padding: 1%;
+}
+
+.score-table tr:nth-child(odd) {
+    background: #f2f2f2;
+    height: 25px;
+}
+
+.score-table th {
+    background: #83969c;
+    padding: 1%;
+}
+
+table>tr>td img {
+    width: 90%;
+}
+
+.detail-news>.latest-news-n-more>div a {
+    text-decoration: none;
+    color: #171515;
+    font-size: 140%
+}
+
+
+/* .weather-forecast>.daily-forecast>#weather-table>tr>td img{
+        width: 90%;
+    } */
+
+@media screen and (min-width:640px) and (max-width:960px) {
+    .text {
+        margin-top: 1%;
+        position: absolute;
+        left: 103px;
     }
-    .contents{
+    .heading h1 {
+        font-weight: 100;
+        display: inline;
+        font-size: 302%;
+    }
+    .breaking-news h2,
+    .breaking-news p {
+        color: white;
+        font-size: 72%;
+    }
+    .contents {
         display: flex;
         flex-direction: column;
     }
-    .section-4-mid-size-screen{
-        order:1;
-    
+    .section-4 {
+        order: 0;
+        width: 50%;
+        display: none;
+        flex: 1;
+        border: solid black;
     }
-    .detail-news{
-        order:1;
-        margin-top: 15px;
+    .img img {
+        width: 60%;
     }
-    .score-table td{
-               
-        padding: 1%;                
+    .banner-section {
+        order: 0;
+        display: inline;
+        flex: 1;
+        width: 50%;
     }
-    
-    .score-table tr:nth-child(odd){
-        background:#f2f2f2;
-        height: 25px;                
+    .weather-forecast {
+        display: inline;
     }
- 
-    .score-table th{
-        background:#83969c;
-       
-        padding: 1%;                
+    .section-4-mid-size-screen {
+        display: inline;
+        width: 50%;
+        order: 0;
+        position: absolute;
+        right: 0;
     }
-    table>tr>td img{
-        width: 90%;
+    .mid-screen-weather-section {
+        display: flex;
+        flex-direction: row;
     }
-    .detail-news>.latest-news-n-more>div a{
-        text-decoration: none;
-        color: #171515;
-        font-size: 140%
+    .dog {
+        width: 100%;
     }
+    .breaking-news {
+        width: 100%;
+    }
+    .score-table td {
+        padding: 1%;
+    }
+    .score-table tr:nth-child(odd) {
+        background: #f2f2f2;
+        height: 25px;
+    }
+    .score-table th {
+        background: #83969c;
+        padding: 1%;
+    }
+}
 
-    /* .weather-forecast>.daily-forecast>#weather-table>tr>td img{
-        width: 90%;
-    } */
+@media screen and (min-width:320px) and (max-width:640px) {
+    .heading h1 {
+        font-weight: 100;
+        display: inline;
+        font-size: 126%;
+    }
+    #weather-table {
+        width: 100%;
+    }
+    .heading {
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: none;
+    }
+    .dog {
+        width: 100%;
+        position: relative;
+    }
+    .breaking-news {
+        width: 100%;
+    }
+    .breaking-news h2,
+    .breaking-news p {
+        font-size: 64%;
+    }
+    .score-table tr:nth-child(odd) {
+        background: #f2f2f2;
+        height: 25px;
+    }
+    .score-table th {
+        background: #83969c;
+        padding: 1%;
+    }
+    .score-table td {
+        padding: 1%;
+    }
+    .menu-img {
+        display: block;
+        width: 10%;
+    }
+    .menu-img img {
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        width: 7%;
+    }
+    .logo img {
+        width: 224%;
+    }
+}
 
-     @media screen and (min-width:640px) and (max-width:960px){
-        .text{
-            margin-top: 1%;
-            position: absolute;
-            left: 103px;
-        
-        }
-        .heading h1{
-
-            font-weight:100;
-            display: inline;
-            font-size: 302%;
-        }
-        .breaking-news h2, .breaking-news p{
-            color: white;
-            font-size: 72%;
-            }
-            .contents{
-                display: flex;
-                flex-direction: column;
-            }
-            .section-4{
-                order: 0;
-                width:50%;
-                display:none;
-                flex:1;
-                border: solid black;
-
-            }
-
-            .img img{
-                width: 60%;
-            }
-            .banner-section{
-                order:0;
-                
-                display: inline;
-                flex:1;
-                width: 50%;
-                
-            }
-            .weather-forecast{
-                display: inline;
-            }
-            .section-4-mid-size-screen{
-                display:inline;
-                width:50%;
-                order: 0;
-                position: absolute;
-                right: 0;
-            }
-            .mid-screen-weather-section{
-                display: flex;
-                flex-direction: row;
-            }
-            .dog{
-            width: 100%;
-            }
-            .breaking-news{
-                width: 100%;
-            }
-            
-            .score-table td{
-               
-                padding: 1%;                
-            }
-            
-            .score-table tr:nth-child(odd){
-                background:#f2f2f2;
-                height: 25px;                
-            }
-         
-            .score-table th{
-                background:#83969c;
-               
-                padding: 1%;                
-            }
-        }
-        @media screen and (min-width:320px) and (max-width:640px){
-            .heading h1{
-
-                font-weight:100;
-                display: inline;
-                font-size: 126%;
-              
-                
-            }
-            #weather-table{
-                width: 100%;
-            }
-
-            .heading{
-                justify-content: space-between;
-                align-items: center;
-                border-bottom: none;
-               
-            }
-            .dog{
-                width: 100%;
-            
-                position: relative;
-            
-            }
-            .breaking-news{
-                width: 100%;
-            }
-            .breaking-news h2, .breaking-news p{
-                font-size: 64%;
-            }   
-            .score-table tr:nth-child(odd){
-                background:#f2f2f2;
-                height: 25px;                
-            }
-         
-            .score-table th{
-                background:#83969c;
-               
-                padding: 1%;                
-            }
-            .score-table td{
-               
-                padding: 1%;                
-            }
-            .menu-img{
-                display: block;
-                width: 10%;
-            }
-            .menu-img img{
-                width: 100%;
-            }
-            .menu{
-                display: none;
-            }
-            .logo{
-                width: 7%;
-            }
-            .logo img{
-                width: 224%;
-            }
-           
-            
-
-        }
-        @media (max-width: 319px) {
-            .heading h1{
-                font-size: 108%;
-            }
-            .breaking-news{
-                display: none;
-             }
-        }
-        
+@media (max-width: 319px) {
+    .heading h1 {
+        font-size: 108%;
+    }
+    .breaking-news {
+        display: none;
+    }
+}
