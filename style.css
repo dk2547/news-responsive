@@ -4,7 +4,9 @@
 }
 .heading{
     display: flex;
-    border-bottom: solid black;
+    /* border-bottom: solid black; */
+    
+    box-shadow: 0 2px 5px rgba(43, 36, 36, 0.75);
 padding-bottom: 10px;
 }
 
@@ -12,7 +14,7 @@ padding-bottom: 10px;
 
     font-weight:100;
      display: inline;
-    font-size: 400%;
+    font-size: 332%;
 
 }
 .score-table table{
@@ -21,6 +23,9 @@ padding-bottom: 10px;
 }
 .daily-forecast table{
     width: 100%;
+}
+.logo img{
+    width: 82%;
 }
 
 .logo{
@@ -40,6 +45,7 @@ padding-bottom: 10px;
     
     color: dimgrey;
     font-size: 95%;
+    margin: 29px 0;
 
 }
 .dog{
@@ -55,6 +61,7 @@ td{
 .menu{
     display: flex;
     justify-content: space-around;
+    font-size: 125%;
 }
 .breaking-news{
      position: absolute; 
@@ -97,6 +104,9 @@ justify-content: space-between;
     border-style: solid;
     color: #999999;
 }
+.news-section{
+    margin-top: 10px;
+}
 
     
     .weather-forecast>.todays-weather{
@@ -104,8 +114,14 @@ justify-content: space-between;
         
 
     }
+    .current-location{
+        margin-left: 5%;
+    }
     .current-location p{
-        margin: 0;
+        margin: 0%;
+    }
+    .place{
+        font-size: 120%;
     }
     
     .text{
@@ -159,6 +175,7 @@ justify-content: space-between;
     }
     .detail-news{
         order:1;
+        margin-top: 15px;
     }
     .score-table td{
                
@@ -181,7 +198,7 @@ justify-content: space-between;
     .detail-news>.latest-news-n-more>div a{
         text-decoration: none;
         color: #171515;
-        font-size: 150%
+        font-size: 140%
     }
 
     /* .weather-forecast>.daily-forecast>#weather-table>tr>td img{
