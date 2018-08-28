@@ -4,7 +4,6 @@
 
 .heading {
     display: flex;
-    /* border-bottom: solid black; */
     box-shadow: 0 2px 5px rgba(43, 36, 36, 0.75);
     padding-bottom: 10px;
 }
@@ -83,7 +82,6 @@ td {
 
 .top-news>div {
     border-bottom: solid rgb(136, 134, 131);
-    /* border-bottom:  */
 }
 
 .banner {
@@ -159,13 +157,10 @@ span {
     color: black;
 }
 
-/* .centerspan{
-        margin: 0 5%;
-    } */
+
 
 footer {
-    /* margin-left: 10%; */
-    /* border-top: solid black; */
+
     box-shadow: -2px 2px 6px 0px #171515;
     padding: 1% 0;
     display: flex;
@@ -211,10 +206,6 @@ table>tr>td img {
     font-size: 140%
 }
 
-
-/* .weather-forecast>.daily-forecast>#weather-table>tr>td img{
-        width: 90%;
-    } */
 
 @media screen and (min-width:640px) and (max-width:960px) {
     .text {
